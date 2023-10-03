@@ -1,2 +1,2 @@
 # LWC
-Useful Lightning Web Components 
+These are some useful Lightning Web Components 
