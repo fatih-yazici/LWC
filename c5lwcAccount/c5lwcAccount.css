@@ -1,0 +1,15 @@
+:host {
+    display: block;
+    
+  }
+  
+  .box {
+    max-width: 800px;
+    max-height: 400px;
+    text-align: center;
+    margin: auto;
+    background:rgb(20, 230, 34);
+    color:black;
+    padding: 16px;
+    border-radius: 38px;
+  }

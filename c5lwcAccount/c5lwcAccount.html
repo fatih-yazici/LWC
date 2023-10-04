@@ -1,0 +1,32 @@
+<!--
+  @description       : 
+  @author            : Selçuk GÖKTAŞ
+  @group             : 
+  @last modified on  : 10-03-2023
+  @last modified by  : Selçuk GÖKTAŞ
+-->
+<template> 
+    
+  <div class="box">
+  
+
+    <lightning-input type="text" label="Search Account" 
+    onchange={textChangeHandler}
+    value={searchTerm}></lightning-input>
+
+
+    
+    <lightning-datatable
+    key-field="id"
+    data={acclist}
+    columns={columns}
+    onrowaction={handleRowAction}
+    
+    >
+    </lightning-datatable>
+  
+
+  </div>
+  
+
+</template>
