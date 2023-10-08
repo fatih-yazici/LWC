@@ -1,0 +1,3 @@
+We create a custom event on child component js file. Whenever the button is clicked on the child component, 
+our typed message will be sent to parent component and will be shown on the parent component.
+This is accomplished by the event we dispatched from child component.
