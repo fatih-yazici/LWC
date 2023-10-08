@@ -1,0 +1,22 @@
+<!--
+  @description       : 
+  @author            : Selçuk GÖKTAŞ
+  @group             : 
+  @last modified on  : 10-04-2023
+  @last modified by  : Selçuk GÖKTAŞ
+-->
+<template>
+    <lightning-card  variant="Narrow"  title="Child" icon-name="standard:account">
+      <lightning-button-icon  icon-name="utility:down" variant="border-filled" 
+      onclick={sendmessagetoParent}
+      alternative-text="Show More" slot="actions"></lightning-button-icon>
+      <p class="slds-p-horizontal_small">
+
+        <lightning-input type="text" label="Enter some text" value={childmessage}
+        onchange={textchangeHandler}
+        ></lightning-input>
+
+      </p>
+      <p slot="footer">Child</p>
+    </lightning-card>
+</template>
